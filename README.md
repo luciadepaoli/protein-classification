@@ -1,2 +1,1 @@
-# Protein-Classification
-Protein Classification
+# Protein Classification
