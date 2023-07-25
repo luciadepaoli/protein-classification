@@ -47,7 +47,7 @@ $$
 with
 
 $$
-W(i_1,i_2)=\frac{1}{2\pi}\int_{i_1=t_1}^{i_1+1}\int_{i_2=t_2}^{i_2+1}\omega(t_1,t_2)\,dt_1\,dt_2
+W(i_1,i_2) = \frac{1}{2\pi} \int_{{i_1 = t_1}}^{{i_1 + 1}} \int_{i_2 = t_2}^{i_2 + 1}\omega(t_1, t_2) \, dt_1 \, dt_2
 $$
 
 where $W(i_1, i_2)$ is the contribution to writhe coming from the i 1th
@@ -60,11 +60,11 @@ multiplied by the sign of this crossing
 Following the *PNAS* we have computed a family of $14$ structural measures, they are computed as follows:
 
 $$
-I_{(1,2)}(\mu)= \sum_{{0<i_1<i_2<N}}W\left(i_1,i_2\right)
+I_{(1,2)}(\mu)= \sum_{{0 < i_1 < i_2 < N}} W\left(i_1, i_2\right)
 $$
 
 $$
-I_{|1,2|(3,5)}(\mu)= \sum_{{0<i_1<i_2<i_3<i_5<N}}\left|W(i_1,i_2)\right|W\left(i_3,i_5\right)\\
+I_{|1,2|(3,5)}(\mu)= \sum_{{0 < i_1 < i_2 < i_3 < i_5 < N}} \left|W(i_1,i_2)\right|W\left(i_3,i_5\right)\\
 $$
 
 ### New Features
