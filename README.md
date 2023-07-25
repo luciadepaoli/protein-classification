@@ -41,7 +41,7 @@ $$
 We have a polygonal so we can use a more simple definition:
 
 $$
-W_r(\mu) = \sum _{{0<i_1<i_2<N}}W(i_1,i_2)
+W_r(\mu) = \sum_{{0<i_1<i_2<N}}W(i_1,i_2)
 $$
 
 with
@@ -59,9 +59,13 @@ multiplied by the sign of this crossing
 
 Following the *PNAS* we have computed a family of $14$ structural measures, they are computed as follows:
 
-$I_{(1,2)}(\mu)= \sum _{0<i_1<i_2<N}W\left(i_1,i_2\right)$
+$$
+I_{(1,2)}(\mu)= \sum_{{0<i_1<i_2<N}}W\left(i_1,i_2\right)
+$$
 
-$I_{|1,2|(3,5)}(\mu)= \sum_{0<i_1<i_2<i_3<i_5<N}\left|W(i_1,i_2)\right|W\left(i_3,i_5\right)\\$
+$$
+I_{|1,2|(3,5)}(\mu)= \sum_{{0<i_1<i_2<i_3<i_5<N}}\left|W(i_1,i_2)\right|W\left(i_3,i_5\right)\\
+$$
 
 ### New Features
 We propose a new kind of features whose computation is faster than the PNAS' ones. The calculations is based on a matrix of "nearest neighbor interaction", we compute the $\omega(t_1,t_2)$ only for the NN segments and then the definitions of the $I$-s are the same.
