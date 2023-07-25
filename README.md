@@ -28,30 +28,22 @@ We map the protein's geometry into a topological curve and compute the Writhe $W
 
  The Writhe of a curve $\gamma$ may be calculated via Gauss integral in this way:  
 
-$
-W_r(\gamma) = \frac{1}{4\pi}\int \int_{\gamma \times \gamma\ D} \omega(t_1,t_2)\,dt_1\,dt_2 
-$
+$W_r(\gamma) = \frac{1}{4\pi}\int \int_{\gamma \times \gamma\ D} \omega(t_1,t_2)\,dt_1\,dt_2 $
 
 where $\omega(t_1,t_2)=\frac{\left[\gamma'(t_1),\gamma(t_1)-\gamma(t_2),\gamma'(t_2)\right]}{\left|\gamma(t_1)-\gamma(t_2) \right|^3}$, $D$ is the diagonal of $\gamma\times\gamma$ and $\left[\gamma'(t_1),\gamma(t_1)-\gamma(t_2),\gamma'(t_2)\right]$ the triple scalar product. 
 
 As $\omega(t_1,t_2)=\omega(t_2,t_1)$ we can use this simpler formula:
 
 
-$
-W_r(\gamma) = \frac{1}{2\pi}\int \int_{0<t_1<t_2<L} \omega(t_1,t_2)\,dt_1\,dt_2 
-$
+$W_r(\gamma) = \frac{1}{2\pi}\int \int_{0<t_1<t_2<L} \omega(t_1,t_2)\,dt_1\,dt_2$
 
 We have a polygonal so we can use a more simple definition:
 
-$
-W_r(\mu) = \sum _{0<i_1<i_2<N}W(i_1,i_2)
-$
+$W_r(\mu) = \sum _{0<i_1<i_2<N}W(i_1,i_2)$
 
 with
 
-$
-    W(i_1,i_2)=\frac{1}{2\pi}\int_{i_1=t_1}^{i_1+1}\int_{i_2=t_2}^{i_2+1}\omega(t_1,t_2)\,dt_1\,dt_2
-$
+$W(i_1,i_2)=\frac{1}{2\pi}\int_{i_1=t_1}^{i_1+1}\int_{i_2=t_2}^{i_2+1}\omega(t_1,t_2)\,dt_1\,dt_2$
 
 where $W(i_1, i_2)$ is the contribution to writhe coming from the i 1th
 and the i 2th line segments, which equals the probability from an
@@ -62,13 +54,9 @@ multiplied by the sign of this crossing
 
 Following the *PNAS* we have computed a family of $14$ structural measures, they are computed as follows:
 
-$
-I_{(1,2)}(\mu)= \sum _{0<i_1<i_2<N}W\left(i_1,i_2\right)
-$
+$I_{(1,2)}(\mu)= \sum _{0<i_1<i_2<N}W\left(i_1,i_2\right)$
 
-$
-I_{|1,2|(3,5)}(\mu)= \sum_{0<i_1<i_2<i_3<i_5<N}\left|W(i_1,i_2)\right|W\left(i_3,i_5\right)\\
-$
+$I_{|1,2|(3,5)}(\mu)= \sum_{0<i_1<i_2<i_3<i_5<N}\left|W(i_1,i_2)\right|W\left(i_3,i_5\right)\\$
 
 ### New Features
 We propose a new kind of features whose computation is faster than the PNAS' ones. The calculations is based on a matrix of "nearest neighbor interaction", we compute the $\omega(t_1,t_2)$ only for the NN segments and then the definitions of the $I$-s are the same.
