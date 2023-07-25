@@ -85,23 +85,23 @@ In the next few slides we will show the division by class:
 
 <h1>Mainly $\alpha$ </h1>
 
-![Alpha_1_trasp.png](attachment:Alpha_1_trasp.png)
+![Alpha_1_trasp.png](img/Alpha_1_trasp.png)
 
 <h1>Mainly $\beta$ </h1>
 
-![Mainly_beta1_trasparent.png](attachment:Mainly_beta1_trasparent.png)
+![Mainly_beta1_trasparent.png](img/Mainly_beta1_trasparent.png)
 
 <h1>Both $\alpha$ and $\beta$</h1>
 
-![117ebgopaque.png](attachment:117ebgopaque.png)
+![117ebgopaque.png](img/117ebgopaque.png)
 
 <h1><center>Few secondary structure. </center></h1>
 
-![2py5_opaque.png](attachment:2py5_opaque.png)
+![2py5_opaque.png](img/2py5_opaque.png)
 
 <h1><center>Special </center></h1>
 
-![31cz_opaque.png](attachment:31cz_opaque.png)
+![31cz_opaque.png](img/31cz_opaque.png)
 
 The project is divided in three sub-parts:
 
