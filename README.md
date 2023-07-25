@@ -41,7 +41,7 @@ $$
 We have a polygonal so we can use a more simple definition:
 
 $$
-W_r(\mu) = \sum_{0<i_1<i_2<N} W(i_1,i_2)
+W_r(\mu) = W(i_1, i_2)
 $$
 
 with
