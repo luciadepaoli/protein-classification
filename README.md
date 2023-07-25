@@ -34,7 +34,9 @@ where $\omega(t_1,t_2)=\frac{\left[\gamma'(t_1),\gamma(t_1)-\gamma(t_2),\gamma'(
 
 As $\omega(t_1,t_2)=\omega(t_2,t_1)$ we can use this simpler formula:
 
-$W_r(\gamma)$
+$$
+W_r(\gamma)
+$$
 
 We have a polygonal so we can use a more simple definition:
 
