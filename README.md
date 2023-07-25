@@ -11,10 +11,10 @@ More information: https://www.pnas.org/doi/full/10.1073/pnas.2636460100
 Classify structure of proteins is an important task in biology. In particoular the secondary structure of a protein is determined by the geometric distribution of the amino acid residues. There are $2$ main secondary structures:
 
 # <center>Alpha Helix</center>
-![Alpha1white.png](attachment:Alpha1white.png)
+![Alpha1white.png](attachment:img/Alpha1white.png)
 
 # <center>Beta Sheet</center>
-![beta_sheet3.png](attachment:beta_sheet3.png)
+![beta_sheet3.png](attachment:img/beta_sheet3.png)
 
 ### PNAS Features
 The chain of the carbon atoms $\{C_{\alpha}\}_{\alpha = 1 \dots N}$ (where $N$ is the length of the protein), is the backbone of the spatial structure of the protein.
