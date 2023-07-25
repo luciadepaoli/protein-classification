@@ -40,11 +40,15 @@ $$
 
 We have a polygonal so we can use a more simple definition:
 
-$W_r(\mu) = \sum _{0<i_1<i_2<N}W(i_1,i_2)$
+$$
+W_r(\mu) = \sum _{{0<i_1<i_2<N}}W(i_1,i_2)
+$$
 
 with
 
-$W(i_1,i_2)=\frac{1}{2\pi}\int_{i_1=t_1}^{i_1+1}\int_{i_2=t_2}^{i_2+1}\omega(t_1,t_2)\,dt_1\,dt_2$
+$$
+W(i_1,i_2)=\frac{1}{2\pi}\int_{i_1=t_1}^{i_1+1}\int_{i_2=t_2}^{i_2+1}\omega(t_1,t_2)\,dt_1\,dt_2
+$$
 
 where $W(i_1, i_2)$ is the contribution to writhe coming from the i 1th
 and the i 2th line segments, which equals the probability from an
