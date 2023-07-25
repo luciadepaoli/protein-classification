@@ -83,13 +83,9 @@ In the next few slides we will show the division by class:
 4. Few secondary structure.
 6. Special
 
-<h1>Mainly $\alpha$ </h1>
-
-![Alpha_1_trasp.png](img/Alpha_1_trasp.png)
-
 <h1>Mainly $\beta$ </h1>
 
-![Mainly_beta1_trasparent.png](img/Mainly_beta1_trasparent.png)
+![Mainly_beta1_trasparent.png](img/Mainly_beta1.png)
 
 <h1>Both $\alpha$ and $\beta$</h1>
 
