@@ -26,7 +26,7 @@ Gauss integrals](https://doi.org/10.1073/pnas.2636460100)" by Peter Røgen and B
 
 We map the protein's geometry into a topological curve and compute the Writhe $W_r$.
 
- The Writhe of a curve $\gamma$ may be calculated via Gauss integral in this way:  
+The Writhe of a curve $\gamma$ may be calculated via Gauss integral in this way:  
 
 $W_r(\gamma) = \frac{1}{4\pi}\int \int_{\gamma \times \gamma\ D} \omega(t_1,t_2)\,dt_1\,dt_2 $
 
