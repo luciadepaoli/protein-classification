@@ -85,7 +85,7 @@ In the next few slides we will show the division by class:
 
 <h1>Mainly $\beta$ </h1>
 
-![Mainly_beta1_trasparent.png](img/Mainly_beta1.png)
+![Mainly_beta1.png](img/Mainly_beta1.png)
 
 <h1>Both $\alpha$ and $\beta$</h1>
 
