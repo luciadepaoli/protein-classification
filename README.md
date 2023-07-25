@@ -35,7 +35,7 @@ where $\omega(t_1,t_2)=\frac{\left[\gamma'(t_1),\gamma(t_1)-\gamma(t_2),\gamma'(
 As $\omega(t_1,t_2)=\omega(t_2,t_1)$ we can use this simpler formula:
 
 $$
-W_r(\gamma) = \frac{1}{2\pi}\int \int_{0 < t_1 < t_2<L} \omega(t_1,t_2)\,dt_1\,dt_2
+W_r(\gamma) = \frac{1}{2\pi}\int \int_{0} \omega(t_1,t_2)\,dt_1\,dt_2
 $$
 
 We have a polygonal so we can use a more simple definition:
